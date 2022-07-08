@@ -6,14 +6,14 @@ func main() { //entry point
 	x := 42
 
 	// Let's print the types of values
-	printReturnTypes(x)
+	printValueType(x)
 	greet := "Hello!"
-	printReturnTypes(greet)
+	printValueType(greet)
 	f := 3.14159
-	printReturnTypes(f)
+	printValueType(f)
 }
 
-func printReturnTypes(v any) {
+func printValueType(v any) {
 	fmt.Printf("%T\n", v)
 	fmt.Printf("%x\n", v)
 }

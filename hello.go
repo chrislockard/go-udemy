@@ -16,21 +16,10 @@ func main() { //entry point
 	x := 42
 	// Statements are made up of expressions
 	fmt.Println(x)
-	// Let's print the types of values
-	printReturnTypes(x)
-	greet := "Hello!"
-	printReturnTypes(greet)
-	f := 3.14159
-	printReturnTypes(f)
 }
 
 func foo() {
 	fmt.Println("I'm in foo")
-}
-
-func printReturnTypes(v any) {
-	fmt.Printf("%T\n", v)
-	fmt.Printf("%x\n", v)
 }
 
 // control flow:
